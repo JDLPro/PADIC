@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Padic</title>
+</head>
+<body>
+  <h1>Padic Calculator</h1>
+  <form id="calc">
+    <input type="text" value="n + n"></input>
+    <input type="button" value="Calculate" onclick="findInv()"></input>
+    <h2>Total:<span id="result"></span> </h2>
+  </form>
+  <script src="calc.js"></script>
+</body>
+</html>
